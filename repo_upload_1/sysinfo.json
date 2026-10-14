@@ -1,0 +1,44 @@
+{
+  "os": "Windows 11 (10.0.26200)",
+  "python": "3.13.14",
+  "python_exe": "C:\\Users\\Chen\\.workbuddy\\binaries\\python\\envs\\default\\Scripts\\python.exe",
+  "cpu": {
+    "name": "AMD Ryzen 7 6800H with Radeon Graphics",
+    "physical_cores": 16,
+    "logical_cores": 16
+  },
+  "ram_gb_total": 15.2,
+  "ram_gb_available": 2.8,
+  "gpus": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "driver": "576.28",
+      "vram_mib": 6144,
+      "vram_used_mib": 1777,
+      "compute_capability": "8.6",
+      "max_sm_clock_mhz": "2100",
+      "power_limit_w": "130.00"
+    }
+  ],
+  "disks": [
+    {
+      "drive": "C:",
+      "total_gb": 219.8,
+      "free_gb": 28.8
+    },
+    {
+      "drive": "D:",
+      "total_gb": 255.8,
+      "free_gb": 43.5
+    },
+    {
+      "drive": "E:",
+      "total_gb": 953.9,
+      "free_gb": 547.5
+    }
+  ],
+  "torch": {
+    "installed": false,
+    "error": "ModuleNotFoundError(\"No module named 'torch'\")"
+  }
+}

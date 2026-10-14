@@ -1,0 +1,208 @@
+{
+  "batch_size": 16,
+  "scope": "all",
+  "paragraphs_measured": 416,
+  "rounds": 20,
+  "noexit_rounds": 10,
+  "exit_theta": 0.5,
+  "baseline_tag": "S0",
+  "baseline_pps": 1121.69315051469,
+  "curve_tag": "S7",
+  "theta_curve": [
+    {
+      "theta": 0.2,
+      "exit_rate": 0.9235,
+      "ptc": 0.9439,
+      "passages_per_s": 1869.25,
+      "speed_index": 166.65
+    },
+    {
+      "theta": 0.3,
+      "exit_rate": 0.9388,
+      "ptc": 0.9439,
+      "passages_per_s": 2246.95,
+      "speed_index": 200.32
+    },
+    {
+      "theta": 0.4,
+      "exit_rate": 0.9745,
+      "ptc": 0.9439,
+      "passages_per_s": 2418.0,
+      "speed_index": 215.57
+    },
+    {
+      "theta": 0.5,
+      "exit_rate": 0.9898,
+      "ptc": 0.9439,
+      "passages_per_s": 2403.14,
+      "speed_index": 214.24
+    },
+    {
+      "theta": 0.6,
+      "exit_rate": 0.9898,
+      "ptc": 0.9439,
+      "passages_per_s": 2380.02,
+      "speed_index": 212.18
+    },
+    {
+      "theta": 0.7,
+      "exit_rate": 0.9949,
+      "ptc": 0.9439,
+      "passages_per_s": 2374.87,
+      "speed_index": 211.72
+    },
+    {
+      "theta": 0.8,
+      "exit_rate": 1.0,
+      "ptc": 0.9388,
+      "passages_per_s": 2378.4,
+      "speed_index": 212.04
+    }
+  ],
+  "systems": {
+    "A1": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1243.37,
+      "speed_index": 110.85,
+      "round_seconds_mean": 0.3346
+    },
+    "A2": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1183.14,
+      "speed_index": 105.48,
+      "round_seconds_mean": 0.3516
+    },
+    "A3": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1150.25,
+      "speed_index": 102.55,
+      "round_seconds_mean": 0.3617
+    },
+    "A4": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1155.56,
+      "speed_index": 103.02,
+      "round_seconds_mean": 0.36
+    },
+    "A5": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2034.33,
+      "speed_index": 181.36,
+      "round_seconds_mean": 0.2045,
+      "passages_per_s_no_exit": 1215.47,
+      "speed_index_no_exit": 108.36,
+      "exit_rate": 0.9808
+    },
+    "BERT-base": {
+      "params_m": 109.5,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 99.57,
+      "speed_index": 8.88,
+      "round_seconds_mean": 4.1778
+    },
+    "S0": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1121.69,
+      "speed_index": 100.0,
+      "round_seconds_mean": 0.3709
+    },
+    "S1": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1148.67,
+      "speed_index": 102.4,
+      "round_seconds_mean": 0.3622
+    },
+    "S2": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1166.02,
+      "speed_index": 103.95,
+      "round_seconds_mean": 0.3568
+    },
+    "S3": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2022.49,
+      "speed_index": 180.31,
+      "round_seconds_mean": 0.2057,
+      "passages_per_s_no_exit": 1241.1,
+      "speed_index_no_exit": 110.64,
+      "exit_rate": 0.9712
+    },
+    "S4": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1237.72,
+      "speed_index": 110.34,
+      "round_seconds_mean": 0.3361
+    },
+    "S5": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1183.41,
+      "speed_index": 105.5,
+      "round_seconds_mean": 0.3515
+    },
+    "S6": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1177.4,
+      "speed_index": 104.97,
+      "round_seconds_mean": 0.3533
+    },
+    "S7": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2095.05,
+      "speed_index": 186.78,
+      "round_seconds_mean": 0.1986,
+      "passages_per_s_no_exit": 1215.66,
+      "speed_index_no_exit": 108.38,
+      "exit_rate": 0.9952
+    },
+    "mBERT": {
+      "params_m": 177.9,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 101.25,
+      "speed_index": 9.03,
+      "round_seconds_mean": 4.1088
+    }
+  }
+}

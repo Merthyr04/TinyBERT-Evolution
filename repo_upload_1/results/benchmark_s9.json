@@ -1,0 +1,76 @@
+{
+  "batch_size": 16,
+  "scope": "all",
+  "paragraphs_measured": 416,
+  "rounds": 20,
+  "noexit_rounds": 10,
+  "exit_theta": 0.5,
+  "baseline_tag": "S0",
+  "baseline_pps": 2463.269746622203,
+  "curve_tag": null,
+  "theta_curve": [],
+  "systems": {
+    "S0": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2463.27,
+      "speed_index": 100.0,
+      "round_seconds_mean": 0.1689
+    },
+    "S3": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 3185.84,
+      "speed_index": 129.33,
+      "round_seconds_mean": 0.1306,
+      "passages_per_s_no_exit": 2201.31,
+      "speed_index_no_exit": 89.37,
+      "exit_rate": 0.9712
+    },
+    "S7": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 3718.83,
+      "speed_index": 150.97,
+      "round_seconds_mean": 0.1119,
+      "passages_per_s_no_exit": 2198.28,
+      "speed_index_no_exit": 89.24,
+      "exit_rate": 0.9952
+    },
+    "S8": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 3366.08,
+      "speed_index": 136.65,
+      "round_seconds_mean": 0.1236,
+      "passages_per_s_no_exit": 2181.73,
+      "speed_index_no_exit": 88.57,
+      "exit_rate": 0.9808
+    },
+    "S9": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 3616.01,
+      "speed_index": 146.8,
+      "round_seconds_mean": 0.115,
+      "passages_per_s_no_exit": 2178.8,
+      "speed_index_no_exit": 88.45,
+      "exit_rate": 0.9904
+    }
+  }
+}

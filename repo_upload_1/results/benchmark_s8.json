@@ -1,0 +1,74 @@
+{
+  "batch_size": 16,
+  "scope": "all",
+  "paragraphs_measured": 416,
+  "rounds": 20,
+  "noexit_rounds": 10,
+  "exit_theta": 0.5,
+  "baseline_tag": "S0",
+  "baseline_pps": 1300.1203220679924,
+  "curve_tag": null,
+  "theta_curve": [],
+  "systems": {
+    "BERT-base": {
+      "params_m": 109.5,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 118.15,
+      "speed_index": 9.09,
+      "round_seconds_mean": 3.521
+    },
+    "S0": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1300.12,
+      "speed_index": 100.0,
+      "round_seconds_mean": 0.32
+    },
+    "S4": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 1320.33,
+      "speed_index": 101.55,
+      "round_seconds_mean": 0.3151
+    },
+    "S7": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2321.16,
+      "speed_index": 178.53,
+      "round_seconds_mean": 0.1792,
+      "passages_per_s_no_exit": 1373.08,
+      "speed_index_no_exit": 105.61,
+      "exit_rate": 0.9952
+    },
+    "S8": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2260.96,
+      "speed_index": 173.9,
+      "round_seconds_mean": 0.184,
+      "passages_per_s_no_exit": 1403.24,
+      "speed_index_no_exit": 107.93,
+      "exit_rate": 0.9808
+    },
+    "mBERT": {
+      "params_m": 177.9,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 117.37,
+      "speed_index": 9.03,
+      "round_seconds_mean": 3.5444
+    }
+  }
+}

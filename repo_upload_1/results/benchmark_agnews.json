@@ -1,0 +1,47 @@
+{
+  "batch_size": 16,
+  "scope": "all",
+  "paragraphs_measured": 416,
+  "rounds": 12,
+  "noexit_rounds": 10,
+  "exit_theta": 0.5,
+  "baseline_tag": "S0",
+  "baseline_pps": 2207.139122376315,
+  "curve_tag": null,
+  "theta_curve": [],
+  "systems": {
+    "S0": {
+      "params_m": 14.38,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2207.14,
+      "speed_index": 100.0,
+      "round_seconds_mean": 0.1885
+    },
+    "S1": {
+      "params_m": 14.38,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2110.45,
+      "speed_index": 95.62,
+      "round_seconds_mean": 0.1971
+    },
+    "S3": {
+      "params_m": 14.38,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2867.15,
+      "speed_index": 129.9,
+      "round_seconds_mean": 0.1451,
+      "passages_per_s_no_exit": 2023.81,
+      "speed_index_no_exit": 91.69,
+      "exit_rate": 0.9808
+    }
+  }
+}

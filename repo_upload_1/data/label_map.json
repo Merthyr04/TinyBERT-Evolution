@@ -1,0 +1,31 @@
+{
+  "label2id": {
+    "built_heritage": 0,
+    "cartography_gis": 1,
+    "digital_humanities": 2,
+    "intangible_heritage": 3,
+    "language_dialect": 4,
+    "migration_identity": 5,
+    "museums_archives": 6,
+    "policy_governance": 7,
+    "tourism_interpretation": 8,
+    "urban_ecology": 9,
+    "urban_humanities_foundation": 10,
+    "urban_morphology": 11
+  },
+  "id2label": {
+    "0": "built_heritage",
+    "1": "cartography_gis",
+    "2": "digital_humanities",
+    "3": "intangible_heritage",
+    "4": "language_dialect",
+    "5": "migration_identity",
+    "6": "museums_archives",
+    "7": "policy_governance",
+    "8": "tourism_interpretation",
+    "9": "urban_ecology",
+    "10": "urban_humanities_foundation",
+    "11": "urban_morphology"
+  },
+  "num_labels": 12
+}

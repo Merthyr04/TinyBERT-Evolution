@@ -1,0 +1,71 @@
+{
+  "paragraphs": 416,
+  "num_labels": 12,
+  "split_rule": "stratified random over paragraphs, seed 20261003, targets {'train': 120, 'dev': 100, 'test': 196}",
+  "split_sizes": {
+    "dev": 100,
+    "test": 196,
+    "train": 120
+  },
+  "chars_total": 96409,
+  "words_total": 14603,
+  "label_paragraph_counts": {
+    "built_heritage": 38,
+    "cartography_gis": 34,
+    "digital_humanities": 34,
+    "intangible_heritage": 34,
+    "language_dialect": 31,
+    "migration_identity": 31,
+    "museums_archives": 36,
+    "policy_governance": 35,
+    "tourism_interpretation": 33,
+    "urban_ecology": 36,
+    "urban_humanities_foundation": 35,
+    "urban_morphology": 39
+  },
+  "split_x_label": {
+    "dev": {
+      "built_heritage": 9,
+      "cartography_gis": 8,
+      "digital_humanities": 8,
+      "intangible_heritage": 8,
+      "language_dialect": 7,
+      "migration_identity": 7,
+      "museums_archives": 9,
+      "policy_governance": 9,
+      "tourism_interpretation": 8,
+      "urban_ecology": 9,
+      "urban_humanities_foundation": 8,
+      "urban_morphology": 10
+    },
+    "test": {
+      "built_heritage": 18,
+      "cartography_gis": 16,
+      "digital_humanities": 16,
+      "intangible_heritage": 16,
+      "language_dialect": 15,
+      "migration_identity": 15,
+      "museums_archives": 17,
+      "policy_governance": 16,
+      "tourism_interpretation": 15,
+      "urban_ecology": 17,
+      "urban_humanities_foundation": 17,
+      "urban_morphology": 18
+    },
+    "train": {
+      "built_heritage": 11,
+      "cartography_gis": 10,
+      "digital_humanities": 10,
+      "intangible_heritage": 10,
+      "language_dialect": 9,
+      "migration_identity": 9,
+      "museums_archives": 10,
+      "policy_governance": 10,
+      "tourism_interpretation": 10,
+      "urban_ecology": 10,
+      "urban_humanities_foundation": 10,
+      "urban_morphology": 11
+    }
+  },
+  "char_count_mismatches_vs_tsv": 0
+}

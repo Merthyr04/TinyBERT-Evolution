@@ -1,0 +1,85 @@
+{
+  "batch_size": 16,
+  "scope": "all",
+  "paragraphs_measured": 416,
+  "rounds": 20,
+  "noexit_rounds": 10,
+  "exit_theta": 0.5,
+  "baseline_tag": "S0",
+  "baseline_pps": 2178.3150931904947,
+  "curve_tag": null,
+  "theta_curve": [],
+  "systems": {
+    "BERT-base": {
+      "params_m": 109.5,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 301.02,
+      "speed_index": 13.82,
+      "round_seconds_mean": 1.382
+    },
+    "F2": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": 2,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 3707.55,
+      "speed_index": 170.2,
+      "round_seconds_mean": 0.1122
+    },
+    "S0": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2178.32,
+      "speed_index": 100.0,
+      "round_seconds_mean": 0.191
+    },
+    "S4": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2137.34,
+      "speed_index": 98.12,
+      "round_seconds_mean": 0.1946
+    },
+    "S6": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 2145.75,
+      "speed_index": 98.5,
+      "round_seconds_mean": 0.1939
+    },
+    "S7": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 13,
+      "kind": "student",
+      "passages_per_s": 3191.58,
+      "speed_index": 146.52,
+      "round_seconds_mean": 0.1303,
+      "passages_per_s_no_exit": 1937.72,
+      "speed_index_no_exit": 88.95,
+      "exit_rate": 0.9952
+    },
+    "mBERT": {
+      "params_m": 177.9,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 301.67,
+      "speed_index": 13.85,
+      "round_seconds_mean": 1.379
+    }
+  }
+}

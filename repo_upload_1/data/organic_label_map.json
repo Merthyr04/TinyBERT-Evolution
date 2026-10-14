@@ -1,0 +1,31 @@
+{
+  "label2id": {
+    "art_music": 0,
+    "commerce_industry": 1,
+    "geography_places": 2,
+    "history_politics": 3,
+    "law_education_institutions": 4,
+    "literature_writing": 5,
+    "myth_legend": 6,
+    "peoples_languages": 7,
+    "philosophy_scholarship": 8,
+    "religion_theology": 9,
+    "science_nature": 10,
+    "war_military": 11
+  },
+  "id2label": {
+    "0": "art_music",
+    "1": "commerce_industry",
+    "2": "geography_places",
+    "3": "history_politics",
+    "4": "law_education_institutions",
+    "5": "literature_writing",
+    "6": "myth_legend",
+    "7": "peoples_languages",
+    "8": "philosophy_scholarship",
+    "9": "religion_theology",
+    "10": "science_nature",
+    "11": "war_military"
+  },
+  "num_labels": 12
+}

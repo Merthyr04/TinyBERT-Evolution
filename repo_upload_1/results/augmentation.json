@@ -1,0 +1,6 @@
+{
+  "base_train": 120,
+  "augmented_train": 360,
+  "variants_per_paragraph": 2,
+  "augmentation_seconds": 4.9
+}
