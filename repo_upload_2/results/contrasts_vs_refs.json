@@ -1,0 +1,244 @@
+{
+  "contrasts": [
+    {
+      "system": "S0",
+      "vs": "BERT-base",
+      "acc_system": 0.8877551020408163,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.07457081632653062,
+      "ci95": [
+        -0.10408163265306103,
+        -0.0479591836734693
+      ],
+      "p_bootstrap": 0.0,
+      "p_mcnemar": 0.00341796875,
+      "mcnemar_only_ref_correct": 12,
+      "mcnemar_only_system_correct": 1
+    },
+    {
+      "system": "S0",
+      "vs": "mBERT",
+      "acc_system": 0.8877551020408163,
+      "acc_ref": 0.9326530612244899,
+      "delta": -0.04488122448979593,
+      "ci95": [
+        -0.0724489795918366,
+        -0.019387755102040716
+      ],
+      "p_bootstrap": 0.0002,
+      "p_mcnemar": 0.076812744140625,
+      "mcnemar_only_ref_correct": 12,
+      "mcnemar_only_system_correct": 4
+    },
+    {
+      "system": "S1",
+      "vs": "BERT-base",
+      "acc_system": 0.9142857142857143,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.04789989795918367,
+      "ci95": [
+        -0.07551020408163267,
+        -0.02244897959183656
+      ],
+      "p_bootstrap": 0.0002,
+      "p_mcnemar": 0.0703125,
+      "mcnemar_only_ref_correct": 7,
+      "mcnemar_only_system_correct": 1
+    },
+    {
+      "system": "S1",
+      "vs": "mBERT",
+      "acc_system": 0.9142857142857143,
+      "acc_ref": 0.9326530612244899,
+      "delta": -0.018210306122448987,
+      "ci95": [
+        -0.04489795918367334,
+        0.008163265306122436
+      ],
+      "p_bootstrap": 0.188,
+      "p_mcnemar": 0.548828125,
+      "mcnemar_only_ref_correct": 7,
+      "mcnemar_only_system_correct": 4
+    },
+    {
+      "system": "S2",
+      "vs": "BERT-base",
+      "acc_system": 0.910204081632653,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.05208408163265305,
+      "ci95": [
+        -0.08061224489795926,
+        -0.026530612244897833
+      ],
+      "p_bootstrap": 0.0,
+      "p_mcnemar": 0.0390625,
+      "mcnemar_only_ref_correct": 8,
+      "mcnemar_only_system_correct": 1
+    },
+    {
+      "system": "S2",
+      "vs": "mBERT",
+      "acc_system": 0.910204081632653,
+      "acc_ref": 0.9326530612244899,
+      "delta": -0.022394489795918376,
+      "ci95": [
+        -0.0479591836734693,
+        0.0020408163265305257
+      ],
+      "p_bootstrap": 0.077,
+      "p_mcnemar": 0.3876953125,
+      "mcnemar_only_ref_correct": 8,
+      "mcnemar_only_system_correct": 4
+    },
+    {
+      "system": "S3",
+      "vs": "BERT-base",
+      "acc_system": 0.8989795918367346,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.06320275510204082,
+      "ci95": [
+        -0.09492346938775521,
+        -0.03367346938775495
+      ],
+      "p_bootstrap": 0.0,
+      "p_mcnemar": 0.00738525390625,
+      "mcnemar_only_ref_correct": 13,
+      "mcnemar_only_system_correct": 2
+    },
+    {
+      "system": "S3",
+      "vs": "mBERT",
+      "acc_system": 0.8989795918367346,
+      "acc_ref": 0.9326530612244899,
+      "delta": -0.03351316326530613,
+      "ci95": [
+        -0.06224489795918364,
+        -0.00612244897959191
+      ],
+      "p_bootstrap": 0.018,
+      "p_mcnemar": 0.09625244140625,
+      "mcnemar_only_ref_correct": 13,
+      "mcnemar_only_system_correct": 5
+    },
+    {
+      "system": "S4",
+      "vs": "BERT-base",
+      "acc_system": 0.9387755102040817,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.02355336734693878,
+      "ci95": [
+        -0.04693877551020409,
+        -0.004081632653061162
+      ],
+      "p_bootstrap": 0.0166,
+      "p_mcnemar": 0.0625,
+      "mcnemar_only_ref_correct": 5,
+      "mcnemar_only_system_correct": 0
+    },
+    {
+      "system": "S4",
+      "vs": "mBERT",
+      "acc_system": 0.9387755102040817,
+      "acc_ref": 0.9326530612244899,
+      "delta": 0.006136224489795903,
+      "ci95": [
+        -0.015306122448979553,
+        0.026530612244898055
+      ],
+      "p_bootstrap": 0.5908,
+      "p_mcnemar": 0.7265625,
+      "mcnemar_only_ref_correct": 5,
+      "mcnemar_only_system_correct": 3
+    },
+    {
+      "system": "S5",
+      "vs": "BERT-base",
+      "acc_system": 0.9122448979591837,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.050059183673469385,
+      "ci95": [
+        -0.07959183673469383,
+        -0.02446428571428594
+      ],
+      "p_bootstrap": 0.0,
+      "p_mcnemar": 0.0703125,
+      "mcnemar_only_ref_correct": 7,
+      "mcnemar_only_system_correct": 1
+    },
+    {
+      "system": "S5",
+      "vs": "mBERT",
+      "acc_system": 0.9122448979591837,
+      "acc_ref": 0.9326530612244899,
+      "delta": -0.020369591836734695,
+      "ci95": [
+        -0.04591836734693866,
+        0.003061224489795955
+      ],
+      "p_bootstrap": 0.0972,
+      "p_mcnemar": 0.548828125,
+      "mcnemar_only_ref_correct": 7,
+      "mcnemar_only_system_correct": 4
+    },
+    {
+      "system": "S6",
+      "vs": "BERT-base",
+      "acc_system": 0.930612244897959,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.03173142857142857,
+      "ci95": [
+        -0.056122448979591844,
+        -0.010204081632653073
+      ],
+      "p_bootstrap": 0.0022,
+      "p_mcnemar": 0.0625,
+      "mcnemar_only_ref_correct": 5,
+      "mcnemar_only_system_correct": 0
+    },
+    {
+      "system": "S6",
+      "vs": "mBERT",
+      "acc_system": 0.930612244897959,
+      "acc_ref": 0.9326530612244899,
+      "delta": -0.0020418367346938817,
+      "ci95": [
+        -0.022448979591836896,
+        0.019387755102040716
+      ],
+      "p_bootstrap": 0.8644,
+      "p_mcnemar": 0.7265625,
+      "mcnemar_only_ref_correct": 5,
+      "mcnemar_only_system_correct": 3
+    },
+    {
+      "system": "S7",
+      "vs": "BERT-base",
+      "acc_system": 0.9397959183673469,
+      "acc_ref": 0.9622448979591837,
+      "delta": -0.022454795918367337,
+      "ci95": [
+        -0.04897959183673484,
+        0.0010204081632653184
+      ],
+      "p_bootstrap": 0.0712,
+      "p_mcnemar": 0.1796875,
+      "mcnemar_only_ref_correct": 7,
+      "mcnemar_only_system_correct": 2
+    },
+    {
+      "system": "S7",
+      "vs": "mBERT",
+      "acc_system": 0.9397959183673469,
+      "acc_ref": 0.9326530612244899,
+      "delta": 0.007234795918367345,
+      "ci95": [
+        -0.01836734693877551,
+        0.03265306122448974
+      ],
+      "p_bootstrap": 0.5812,
+      "p_mcnemar": 0.7744140625,
+      "mcnemar_only_ref_correct": 7,
+      "mcnemar_only_system_correct": 5
+    }
+  ]
+}

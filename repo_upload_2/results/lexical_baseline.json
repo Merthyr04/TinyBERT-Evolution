@@ -1,0 +1,140 @@
+{
+  "split": {
+    "train": 120,
+    "dev": 100,
+    "test": 196
+  },
+  "real_split": [
+    {
+      "name": "majority class (11)",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.09183673469387756,
+      "f1_eval": 0.014018691588785048,
+      "acc_train": 0.09166666666666666,
+      "f1_train": 0.013994910941475827,
+      "acc_dev": 0.1,
+      "f1_dev": 0.015151515151515152,
+      "vocab": 0
+    },
+    {
+      "name": "TF-IDF (1-2) + logistic regression, C = 1",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.8979591836734694,
+      "f1_eval": 0.9033797195349383,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 2466,
+      "acc_dev": 0.93,
+      "f1_dev": 0.9362807943690297
+    },
+    {
+      "name": "TF-IDF (1-2) + logistic regression, C = 10",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.9132653061224489,
+      "f1_eval": 0.9159721988142455,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 2466,
+      "acc_dev": 0.95,
+      "f1_dev": 0.9502210072063013
+    },
+    {
+      "name": "TF-IDF (1-2) + logistic regression, C = 100",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.9285714285714286,
+      "f1_eval": 0.9301057746274654,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 2466,
+      "acc_dev": 0.95,
+      "f1_dev": 0.9502210072063013
+    },
+    {
+      "name": "TF-IDF (1-2) + linear SVM, C = 1",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.9489795918367347,
+      "f1_eval": 0.9496534842196688,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 2466,
+      "acc_dev": 0.96,
+      "f1_dev": 0.9605786320376103
+    },
+    {
+      "name": "TF-IDF (1-1) + logistic regression, C = 10",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.9132653061224489,
+      "f1_eval": 0.9164529692567059,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 733,
+      "acc_dev": 0.94,
+      "f1_dev": 0.9393944104857418
+    },
+    {
+      "name": "TF-IDF nearest class centroid (Rocchio)",
+      "n_train": 120,
+      "n_eval": 196,
+      "acc_eval": 0.9081632653061225,
+      "f1_eval": 0.9153434772803516,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 2466,
+      "acc_dev": 0.95,
+      "f1_dev": 0.9504524886877829
+    }
+  ],
+  "positional": [
+    {
+      "name": "positional head 50% (TF-IDF + LR, C = 10)",
+      "n_train": 210,
+      "n_eval": 206,
+      "acc_eval": 0.9368932038834952,
+      "f1_eval": 0.9375062869041062,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 3260,
+      "head_frac": 0.5
+    },
+    {
+      "name": "positional head 60% (TF-IDF + LR, C = 10)",
+      "n_train": 250,
+      "n_eval": 166,
+      "acc_eval": 0.9518072289156626,
+      "f1_eval": 0.9516109984375852,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 3522,
+      "head_frac": 0.6
+    },
+    {
+      "name": "positional head 70% (TF-IDF + LR, C = 10)",
+      "n_train": 291,
+      "n_eval": 125,
+      "acc_eval": 0.96,
+      "f1_eval": 0.9588277511961724,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 3818,
+      "head_frac": 0.7
+    },
+    {
+      "name": "positional head 80% (TF-IDF + LR, C = 10)",
+      "n_train": 332,
+      "n_eval": 84,
+      "acc_eval": 0.9642857142857143,
+      "f1_eval": 0.963888888888889,
+      "acc_train": 1.0,
+      "f1_train": 1.0,
+      "vocab": 4016,
+      "head_frac": 0.8
+    }
+  ],
+  "ceiling": {}
+}

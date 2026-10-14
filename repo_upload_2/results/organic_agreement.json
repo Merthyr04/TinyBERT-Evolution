@@ -1,0 +1,23 @@
+{
+ "sample_size": 119,
+ "per_class": 10,
+ "rule_kappa": 0.45,
+ "observed_agreement": 49.58,
+ "expected_agreement": 8.33,
+ "per_class_recovery": {
+  "geography_places": 10.0,
+  "history_politics": 50.0,
+  "religion_theology": 60.0,
+  "literature_writing": 80.0,
+  "science_nature": 30.0,
+  "art_music": 60.0,
+  "war_military": 70.0,
+  "philosophy_scholarship": 20.0,
+  "myth_legend": 40.0,
+  "law_education_institutions": 80.0,
+  "commerce_industry": 20.0,
+  "peoples_languages": 77.8
+ },
+ "sample_file": "data/od100k_secondpass_sample.json",
+ "note": "The automatic pass is a keyword rule, not a person; it bounds how much of the label is recoverable from surface cues and does not replace human agreement."
+}

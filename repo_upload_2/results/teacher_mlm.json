@@ -1,0 +1,22 @@
+{
+  "mlm_seed": 4242,
+  "test_paragraphs": 196,
+  "teachers": {
+    "BERT-base": {
+      "tokenizer": "bert-base-uncased",
+      "n_masked": 1329,
+      "mlm_top1_released": 0.5132,
+      "mlm_top5_released": 0.6321,
+      "mlm_top1_finetuned": 0.4409,
+      "mlm_top5_finetuned": 0.5613
+    },
+    "mBERT": {
+      "tokenizer": "bert-base-multilingual-cased",
+      "n_masked": 1445,
+      "mlm_top1_released": 0.5536,
+      "mlm_top5_released": 0.6678,
+      "mlm_top1_finetuned": 0.1038,
+      "mlm_top5_finetuned": 0.1896
+    }
+  }
+}

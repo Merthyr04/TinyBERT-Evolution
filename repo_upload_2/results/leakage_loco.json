@@ -1,0 +1,155 @@
+{
+ "word": {
+  "random_split": {
+   "test_acc": 0.949,
+   "n_test": 196
+  },
+  "loco": {
+   "pooled_acc": 0.0,
+   "per_fold": {
+    "1": {
+     "n_test": 35,
+     "acc": 0.0,
+     "majority_baseline": 0.1024
+    },
+    "2": {
+     "n_test": 39,
+     "acc": 0.0,
+     "majority_baseline": 0.1008
+    },
+    "3": {
+     "n_test": 38,
+     "acc": 0.0,
+     "majority_baseline": 0.1032
+    },
+    "4": {
+     "n_test": 36,
+     "acc": 0.0,
+     "majority_baseline": 0.1026
+    },
+    "5": {
+     "n_test": 31,
+     "acc": 0.0,
+     "majority_baseline": 0.1013
+    },
+    "6": {
+     "n_test": 31,
+     "acc": 0.0,
+     "majority_baseline": 0.1013
+    },
+    "7": {
+     "n_test": 34,
+     "acc": 0.0,
+     "majority_baseline": 0.1021
+    },
+    "8": {
+     "n_test": 34,
+     "acc": 0.0,
+     "majority_baseline": 0.1021
+    },
+    "9": {
+     "n_test": 34,
+     "acc": 0.0,
+     "majority_baseline": 0.1021
+    },
+    "10": {
+     "n_test": 36,
+     "acc": 0.0,
+     "majority_baseline": 0.1026
+    },
+    "11": {
+     "n_test": 35,
+     "acc": 0.0,
+     "majority_baseline": 0.1024
+    },
+    "12": {
+     "n_test": 33,
+     "acc": 0.0,
+     "majority_baseline": 0.1018
+    }
+   }
+  }
+ },
+ "char": {
+  "random_split": {
+   "test_acc": 0.9796,
+   "n_test": 196
+  },
+  "loco": {
+   "pooled_acc": 0.0,
+   "per_fold": {
+    "1": {
+     "n_test": 35,
+     "acc": 0.0,
+     "majority_baseline": 0.1024
+    },
+    "2": {
+     "n_test": 39,
+     "acc": 0.0,
+     "majority_baseline": 0.1008
+    },
+    "3": {
+     "n_test": 38,
+     "acc": 0.0,
+     "majority_baseline": 0.1032
+    },
+    "4": {
+     "n_test": 36,
+     "acc": 0.0,
+     "majority_baseline": 0.1026
+    },
+    "5": {
+     "n_test": 31,
+     "acc": 0.0,
+     "majority_baseline": 0.1013
+    },
+    "6": {
+     "n_test": 31,
+     "acc": 0.0,
+     "majority_baseline": 0.1013
+    },
+    "7": {
+     "n_test": 34,
+     "acc": 0.0,
+     "majority_baseline": 0.1021
+    },
+    "8": {
+     "n_test": 34,
+     "acc": 0.0,
+     "majority_baseline": 0.1021
+    },
+    "9": {
+     "n_test": 34,
+     "acc": 0.0,
+     "majority_baseline": 0.1021
+    },
+    "10": {
+     "n_test": 36,
+     "acc": 0.0,
+     "majority_baseline": 0.1026
+    },
+    "11": {
+     "n_test": 35,
+     "acc": 0.0,
+     "majority_baseline": 0.1024
+    },
+    "12": {
+     "n_test": 33,
+     "acc": 0.0,
+     "majority_baseline": 0.1018
+    }
+   }
+  }
+ },
+ "position_only": {
+  "probe": "decision tree (depth 6) on paragraph index alone",
+  "random_split_test_acc": 0.7449
+ },
+ "protocol": {
+  "corpus": "LD-100K, 416 body paragraphs, 12 chapters/labels",
+  "loco": "each fold holds out one whole chapter for testing, trains on the other 11; pooled accuracy over all 416 paragraphs",
+  "random_split_reference": "train on train+dev (220), test on the stratified test side (196), seed 20261003",
+  "probes": "TF-IDF + linear SVM, word 1-2 grams and char_wb 2-5 grams",
+  "leakage_diagnosis": "within-chapter adjacent-pair sharing across the random split: 67.8% of same-chapter adjacent paragraph pairs land on opposite sides"
+ }
+}

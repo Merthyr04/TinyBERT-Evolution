@@ -1,0 +1,98 @@
+{
+  "system": "S7",
+  "seed": 13,
+  "test_paragraphs": 196,
+  "paragraphs_timed": 416,
+  "baseline_pps": 1448.8256748590163,
+  "aux_entropy_quantiles": {
+    "q5": 0.0007934089517220855,
+    "q25": 0.001478889724239707,
+    "q50": 0.003121881978586316,
+    "q75": 0.014271753840148449,
+    "q95": 0.3431716561317444
+  },
+  "aux_entropy_below_0p8": 1.0,
+  "aux_head_only_ptc": 0.9387755102040817,
+  "rows": [
+    {
+      "theta": 0.2,
+      "ptc": 0.9439,
+      "exit_rate": 0.9235,
+      "passages_per_s": 2037.98,
+      "speed_index": 140.66,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 0,
+      "n_only_deep_correct": 0
+    },
+    {
+      "theta": 0.3,
+      "ptc": 0.9439,
+      "exit_rate": 0.9388,
+      "passages_per_s": 2236.86,
+      "speed_index": 154.39,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 0,
+      "n_only_deep_correct": 0
+    },
+    {
+      "theta": 0.4,
+      "ptc": 0.9439,
+      "exit_rate": 0.9745,
+      "passages_per_s": 2417.59,
+      "speed_index": 166.87,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 1,
+      "n_only_deep_correct": 1
+    },
+    {
+      "theta": 0.5,
+      "ptc": 0.9439,
+      "exit_rate": 0.9898,
+      "passages_per_s": 2503.11,
+      "speed_index": 172.77,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 1,
+      "n_only_deep_correct": 1
+    },
+    {
+      "theta": 0.6,
+      "ptc": 0.9439,
+      "exit_rate": 0.9898,
+      "passages_per_s": 2482.53,
+      "speed_index": 171.35,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 1,
+      "n_only_deep_correct": 1
+    },
+    {
+      "theta": 0.7,
+      "ptc": 0.9439,
+      "exit_rate": 0.9949,
+      "passages_per_s": 2578.35,
+      "speed_index": 177.96,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 1,
+      "n_only_deep_correct": 1
+    },
+    {
+      "theta": 0.8,
+      "ptc": 0.9388,
+      "exit_rate": 1.0,
+      "passages_per_s": 2533.99,
+      "speed_index": 174.9,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 1,
+      "n_only_deep_correct": 2
+    },
+    {
+      "theta": -1.0,
+      "ptc": 0.9439,
+      "exit_rate": 0.0,
+      "passages_per_s": 1354.43,
+      "speed_index": 93.48,
+      "mcnemar_p_vs_noexit": 1.0,
+      "n_only_theta_correct": 0,
+      "n_only_deep_correct": 0
+    }
+  ]
+}

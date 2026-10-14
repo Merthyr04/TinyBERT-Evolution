@@ -1,0 +1,95 @@
+{
+  "batch_size": 16,
+  "scope": "all",
+  "paragraphs_measured": 416,
+  "rounds": 20,
+  "noexit_rounds": 10,
+  "exit_theta": 0.5,
+  "baseline_tag": "S0",
+  "baseline_pps": 2043.3772142774585,
+  "curve_tag": null,
+  "theta_curve": [],
+  "systems": {
+    "A0": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 1993.99,
+      "speed_index": 97.58,
+      "round_seconds_mean": 0.2086
+    },
+    "BERT-base": {
+      "params_m": 109.5,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 231.64,
+      "speed_index": 11.34,
+      "round_seconds_mean": 1.7959
+    },
+    "F2": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": 2,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 3699.86,
+      "speed_index": 181.07,
+      "round_seconds_mean": 0.1124
+    },
+    "S0": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2043.38,
+      "speed_index": 100.0,
+      "round_seconds_mean": 0.2036
+    },
+    "S4": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2041.02,
+      "speed_index": 99.88,
+      "round_seconds_mean": 0.2038
+    },
+    "S6": {
+      "params_m": 14.39,
+      "dual_head": false,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2030.94,
+      "speed_index": 99.39,
+      "round_seconds_mean": 0.2048
+    },
+    "S7": {
+      "params_m": 14.39,
+      "dual_head": true,
+      "head_on_layer": null,
+      "seed": 7,
+      "kind": "student",
+      "passages_per_s": 2590.63,
+      "speed_index": 126.78,
+      "round_seconds_mean": 0.1606,
+      "passages_per_s_no_exit": 1920.25,
+      "speed_index_no_exit": 93.97,
+      "exit_rate": 0.9399
+    },
+    "mBERT": {
+      "params_m": 177.9,
+      "dual_head": false,
+      "seed": null,
+      "kind": "reference",
+      "passages_per_s": 231.88,
+      "speed_index": 11.35,
+      "round_seconds_mean": 1.794
+    }
+  }
+}

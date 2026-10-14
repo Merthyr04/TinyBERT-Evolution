@@ -1,0 +1,62 @@
+{
+  "labels": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "BERT-base",
+    "mBERT"
+  ],
+  "acc": [
+    88.78,
+    91.432,
+    91.024,
+    89.9,
+    93.88,
+    91.228,
+    93.06400000000001,
+    93.982,
+    96.226,
+    93.268
+  ],
+  "speed": [
+    100.0,
+    102.4,
+    104.0,
+    180.3,
+    110.3,
+    105.5,
+    105.0,
+    186.8,
+    8.9,
+    9.0
+  ],
+  "mlm1": [
+    34.824,
+    50.096,
+    33.212,
+    31.408,
+    48.082,
+    34.356,
+    46.050000000000004,
+    46.379999999999995,
+    null,
+    null
+  ],
+  "names": [
+    "TinyBERT baseline",
+    "+ data augmentation",
+    "+ single-teacher distillation",
+    "+ dual head",
+    "+ DA + single teacher",
+    "+ dual-teacher distillation",
+    "+ dual teacher + DA (TinyBERT-EA)",
+    "+ EA + dual head (deployed)",
+    "BERT-base",
+    "mBERT"
+  ]
+}

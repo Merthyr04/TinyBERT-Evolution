@@ -1,0 +1,16 @@
+{
+  "system": "S3",
+  "seed": 13,
+  "alpha": 0.05,
+  "tol": 0.01,
+  "criterion": "mcnemar and absolute-drop",
+  "rule": "maximise the measured speed index among thresholds whose accuracy is not significantly worse than the always-deep control",
+  "theta": 0.8,
+  "ptc": 0.9082,
+  "exit_rate": 1.0,
+  "speed_index": 164.38,
+  "passages_per_s": 2733.55,
+  "ptc_deep_control": 0.9133,
+  "speed_index_deep_control": 89.27,
+  "mcnemar_p_vs_noexit": 1.0
+}

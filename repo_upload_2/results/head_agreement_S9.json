@@ -1,0 +1,66 @@
+{
+  "theta": 0.5,
+  "corpus": "LD-100K",
+  "rows": [
+    {
+      "tag": "S9",
+      "seed": 7,
+      "n": 196,
+      "aux_acc": 0.9439,
+      "main_acc": 0.9541,
+      "exit_acc": 0.949,
+      "aux_eq_main": 190,
+      "exit_ne_deep": 5,
+      "exit_ne_aux": 1,
+      "exit_rate": 0.9847
+    },
+    {
+      "tag": "S9",
+      "seed": 13,
+      "n": 196,
+      "aux_acc": 0.9643,
+      "main_acc": 0.9643,
+      "exit_acc": 0.9541,
+      "aux_eq_main": 192,
+      "exit_ne_deep": 2,
+      "exit_ne_aux": 2,
+      "exit_rate": 0.9898
+    },
+    {
+      "tag": "S9",
+      "seed": 37,
+      "n": 196,
+      "aux_acc": 0.9388,
+      "main_acc": 0.9541,
+      "exit_acc": 0.949,
+      "aux_eq_main": 188,
+      "exit_ne_deep": 6,
+      "exit_ne_aux": 2,
+      "exit_rate": 0.9796
+    },
+    {
+      "tag": "S9",
+      "seed": 42,
+      "n": 196,
+      "aux_acc": 0.949,
+      "main_acc": 0.9592,
+      "exit_acc": 0.9541,
+      "aux_eq_main": 192,
+      "exit_ne_deep": 1,
+      "exit_ne_aux": 3,
+      "exit_rate": 0.9796
+    },
+    {
+      "tag": "S9",
+      "seed": 97,
+      "n": 196,
+      "aux_acc": 0.949,
+      "main_acc": 0.9541,
+      "exit_acc": 0.949,
+      "aux_eq_main": 191,
+      "exit_ne_deep": 5,
+      "exit_ne_aux": 0,
+      "exit_rate": 1.0
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "seed": 13,
+  "theta": 0.5,
+  "n_paragraphs": 416,
+  "batch_sweep": {
+    "1": {
+      "S0": 138.0,
+      "S7@exit": 212.2,
+      "F2": 254.9,
+      "S0_idx": 100.0,
+      "S7@exit_idx": 153.8,
+      "F2_idx": 184.7
+    },
+    "2": {
+      "S0": 282.5,
+      "S7@exit": 430.0,
+      "F2": 485.5,
+      "S0_idx": 100.0,
+      "S7@exit_idx": 152.2,
+      "F2_idx": 171.9
+    },
+    "4": {
+      "S0": 541.5,
+      "S7@exit": 854.2,
+      "F2": 889.7,
+      "S0_idx": 100.0,
+      "S7@exit_idx": 157.7,
+      "F2_idx": 164.3
+    },
+    "8": {
+      "S0": 1004.0,
+      "S7@exit": 1608.5,
+      "F2": 1800.1,
+      "S0_idx": 100.0,
+      "S7@exit_idx": 160.2,
+      "F2_idx": 179.3
+    },
+    "16": {
+      "S0": 2070.8,
+      "S7@exit": 3191.4,
+      "F2": 3775.7,
+      "S0_idx": 100.0,
+      "S7@exit_idx": 154.1,
+      "F2_idx": 182.3
+    },
+    "32": {
+      "S0": 3235.2,
+      "S7@exit": 4840.9,
+      "F2": 6162.5,
+      "S0_idx": 100.0,
+      "S7@exit_idx": 149.6,
+      "F2_idx": 190.5
+    }
+  },
+  "latency_percentiles": {
+    "S0": {
+      "p50_ms": 6.532,
+      "p95_ms": 8.515,
+      "p99_ms": 9.349,
+      "mean_ms": 6.764,
+      "n": 3328
+    },
+    "S7@exit": {
+      "p50_ms": 4.099,
+      "p95_ms": 4.733,
+      "p99_ms": 5.722,
+      "mean_ms": 4.174,
+      "n": 3328
+    },
+    "F2": {
+      "p50_ms": 3.762,
+      "p95_ms": 4.745,
+      "p99_ms": 5.619,
+      "mean_ms": 3.876,
+      "n": 3328
+    }
+  },
+  "int8_cpu": {
+    "full_model": {
+      "1": {
+        "fp32_ms_per_pass": 7.779,
+        "int8_ms_per_pass": 10.614,
+        "speedup": 0.73
+      },
+      "16": {
+        "fp32_ms_per_pass": 68.495,
+        "int8_ms_per_pass": 51.029,
+        "speedup": 1.34
+      }
+    },
+    "linear_probe_us": {
+      "1": {
+        "fp32_us_per_call": 57.19,
+        "int8_us_per_call": 57.11
+      },
+      "16": {
+        "fp32_us_per_call": 84.15,
+        "int8_us_per_call": 84.06
+      },
+      "64": {
+        "fp32_us_per_call": 193.63,
+        "int8_us_per_call": 192.68
+      },
+      "256": {
+        "fp32_us_per_call": 582.98,
+        "int8_us_per_call": 579.02
+      }
+    }
+  },
+  "protocol": "one process, round-robin over batch sizes; latency percentiles over per-paragraph timings at batch 1; INT8 = torch.ao.quantization.quantize_dynamic on CPU"
+}

@@ -1,0 +1,173 @@
+{
+ "sample_size": 119,
+ "per_class": 10,
+ "seed": 20261011,
+ "model": {
+  "kappa": 0.826,
+  "observed_agreement": 84.03,
+  "expected_agreement": 8.34,
+  "n_agree": 100,
+  "per_class_agreement": {
+   "geography_places": 90.0,
+   "history_politics": 90.0,
+   "religion_theology": 100.0,
+   "literature_writing": 100.0,
+   "science_nature": 70.0,
+   "art_music": 90.0,
+   "war_military": 80.0,
+   "philosophy_scholarship": 70.0,
+   "myth_legend": 80.0,
+   "law_education_institutions": 70.0,
+   "commerce_industry": 70.0,
+   "peoples_languages": 100.0
+  },
+  "provenance": "an independent model-based annotation of the same 119 entries under the same twelve-class codebook, read with the first label hidden; NOT human agreement"
+ },
+ "rule": {
+  "kappa": 0.45,
+  "observed_agreement": 49.58,
+  "expected_agreement": 8.33
+ },
+ "rule_vs_model": {
+  "kappa": 0.461,
+  "observed_agreement": 51.26,
+  "expected_agreement": 9.49
+ },
+ "disagreements": [
+  {
+   "idx": 33,
+   "label_1": "history_politics",
+   "label_2_model": "war_military",
+   "label_2_rule": "war_military",
+   "headword": "AGOUST"
+  },
+  {
+   "idx": 46,
+   "label_1": "geography_places",
+   "label_2_model": "religion_theology",
+   "label_2_rule": "war_military",
+   "headword": "AJALON"
+  },
+  {
+   "idx": 68,
+   "label_1": "commerce_industry",
+   "label_2_model": "literature_writing",
+   "label_2_rule": "history_politics",
+   "headword": "ALDINE EDITIONS"
+  },
+  {
+   "idx": 105,
+   "label_1": "commerce_industry",
+   "label_2_model": "history_politics",
+   "label_2_rule": "peoples_languages",
+   "headword": "ALMANACH DE GOTHA"
+  },
+  {
+   "idx": 146,
+   "label_1": "war_military",
+   "label_2_model": "history_politics",
+   "label_2_rule": "war_military",
+   "headword": "ANDREOSSY"
+  },
+  {
+   "idx": 216,
+   "label_1": "art_music",
+   "label_2_model": "philosophy_scholarship",
+   "label_2_rule": "law_education_institutions",
+   "headword": "ARUNDEL MARBLES"
+  },
+  {
+   "idx": 227,
+   "label_1": "law_education_institutions",
+   "label_2_model": "philosophy_scholarship",
+   "label_2_rule": "literature_writing",
+   "headword": "ASSEMANI"
+  },
+  {
+   "idx": 235,
+   "label_1": "science_nature",
+   "label_2_model": "philosophy_scholarship",
+   "label_2_rule": "law_education_institutions",
+   "headword": "ASTRUC"
+  },
+  {
+   "idx": 239,
+   "label_1": "philosophy_scholarship",
+   "label_2_model": "religion_theology",
+   "label_2_rule": "myth_legend",
+   "headword": "ATHEISM"
+  },
+  {
+   "idx": 240,
+   "label_1": "philosophy_scholarship",
+   "label_2_model": "religion_theology",
+   "label_2_rule": "religion_theology",
+   "headword": "ATHEISM"
+  },
+  {
+   "idx": 252,
+   "label_1": "science_nature",
+   "label_2_model": "history_politics",
+   "label_2_rule": "history_politics",
+   "headword": "AUGUST"
+  },
+  {
+   "idx": 256,
+   "label_1": "law_education_institutions",
+   "label_2_model": "history_politics",
+   "label_2_rule": "law_education_institutions",
+   "headword": "AULIC COUNCIL"
+  },
+  {
+   "idx": 259,
+   "label_1": "war_military",
+   "label_2_model": "history_politics",
+   "label_2_rule": "history_politics",
+   "headword": "AUMALE"
+  },
+  {
+   "idx": 272,
+   "label_1": "myth_legend",
+   "label_2_model": "religion_theology",
+   "label_2_rule": "religion_theology",
+   "headword": "AYLMER"
+  },
+  {
+   "idx": 276,
+   "label_1": "law_education_institutions",
+   "label_2_model": "history_politics",
+   "label_2_rule": "law_education_institutions",
+   "headword": "AZEGLIO"
+  },
+  {
+   "idx": 284,
+   "label_1": "myth_legend",
+   "label_2_model": "religion_theology",
+   "label_2_rule": "peoples_languages",
+   "headword": "BABYLONISH CAPTIVITY"
+  },
+  {
+   "idx": 291,
+   "label_1": "science_nature",
+   "label_2_model": "religion_theology",
+   "label_2_rule": "history_politics",
+   "headword": "BADRINATH"
+  },
+  {
+   "idx": 294,
+   "label_1": "commerce_industry",
+   "label_2_model": "geography_places",
+   "label_2_rule": "science_nature",
+   "headword": "BAFFIN BAY"
+  },
+  {
+   "idx": 398,
+   "label_1": "philosophy_scholarship",
+   "label_2_model": "history_politics",
+   "label_2_rule": "religion_theology",
+   "headword": "BAZARD"
+  }
+ ],
+ "cases_both_second_passes_miss": 16,
+ "human_second_annotation": "still outstanding; the released sheet data/od100k_secondpass_sample.json carries an empty second_label column"
+}

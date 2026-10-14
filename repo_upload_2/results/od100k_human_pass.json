@@ -1,0 +1,134 @@
+{
+ "sheet": "piptmp_filled_test.csv",
+ "entries_filled": 119,
+ "entries_skipped": 0,
+ "classes_used": 12,
+ "human_vs_first": {
+  "kappa": 0.826,
+  "observed_agreement": 84.03,
+  "expected_agreement": 8.34,
+  "n_agree": 100,
+  "per_class_agreement": {
+   "geography_places": 90.0,
+   "history_politics": 90.0,
+   "religion_theology": 100.0,
+   "literature_writing": 100.0,
+   "science_nature": 70.0,
+   "art_music": 90.0,
+   "war_military": 80.0,
+   "philosophy_scholarship": 70.0,
+   "myth_legend": 80.0,
+   "law_education_institutions": 70.0,
+   "commerce_industry": 70.0,
+   "peoples_languages": 100.0
+  }
+ },
+ "human_vs_rule": {
+  "kappa": 0.461,
+  "observed_agreement": 51.26,
+  "expected_agreement": 9.49
+ },
+ "human_vs_model": {
+  "entries": 19,
+  "kappa": -0.056,
+  "observed_agreement": 0.0,
+  "expected_agreement": 5.26
+ },
+ "disagreements": [
+  {
+   "idx": 33,
+   "first_label": "history_politics",
+   "human_label_2": "war_military"
+  },
+  {
+   "idx": 46,
+   "first_label": "geography_places",
+   "human_label_2": "religion_theology"
+  },
+  {
+   "idx": 68,
+   "first_label": "commerce_industry",
+   "human_label_2": "literature_writing"
+  },
+  {
+   "idx": 105,
+   "first_label": "commerce_industry",
+   "human_label_2": "history_politics"
+  },
+  {
+   "idx": 146,
+   "first_label": "war_military",
+   "human_label_2": "history_politics"
+  },
+  {
+   "idx": 216,
+   "first_label": "art_music",
+   "human_label_2": "philosophy_scholarship"
+  },
+  {
+   "idx": 227,
+   "first_label": "law_education_institutions",
+   "human_label_2": "philosophy_scholarship"
+  },
+  {
+   "idx": 235,
+   "first_label": "science_nature",
+   "human_label_2": "philosophy_scholarship"
+  },
+  {
+   "idx": 239,
+   "first_label": "philosophy_scholarship",
+   "human_label_2": "religion_theology"
+  },
+  {
+   "idx": 240,
+   "first_label": "philosophy_scholarship",
+   "human_label_2": "religion_theology"
+  },
+  {
+   "idx": 252,
+   "first_label": "science_nature",
+   "human_label_2": "history_politics"
+  },
+  {
+   "idx": 256,
+   "first_label": "law_education_institutions",
+   "human_label_2": "history_politics"
+  },
+  {
+   "idx": 259,
+   "first_label": "war_military",
+   "human_label_2": "history_politics"
+  },
+  {
+   "idx": 272,
+   "first_label": "myth_legend",
+   "human_label_2": "religion_theology"
+  },
+  {
+   "idx": 276,
+   "first_label": "law_education_institutions",
+   "human_label_2": "history_politics"
+  },
+  {
+   "idx": 284,
+   "first_label": "myth_legend",
+   "human_label_2": "religion_theology"
+  },
+  {
+   "idx": 291,
+   "first_label": "science_nature",
+   "human_label_2": "religion_theology"
+  },
+  {
+   "idx": 294,
+   "first_label": "commerce_industry",
+   "human_label_2": "geography_places"
+  },
+  {
+   "idx": 398,
+   "first_label": "philosophy_scholarship",
+   "human_label_2": "history_politics"
+  }
+ ]
+}

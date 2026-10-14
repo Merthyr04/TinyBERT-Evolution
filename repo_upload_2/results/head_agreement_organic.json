@@ -1,0 +1,66 @@
+{
+  "theta": 0.5,
+  "corpus": "OD-100K (Nuttall)",
+  "rows": [
+    {
+      "tag": "S7",
+      "seed": 7,
+      "n": 196,
+      "aux_acc": 0.5714,
+      "main_acc": 0.5816,
+      "exit_acc": 0.5765,
+      "aux_eq_main": 169,
+      "exit_ne_deep": 19,
+      "exit_ne_aux": 8,
+      "exit_rate": 0.9184
+    },
+    {
+      "tag": "S7",
+      "seed": 13,
+      "n": 196,
+      "aux_acc": 0.5867,
+      "main_acc": 0.5816,
+      "exit_acc": 0.5765,
+      "aux_eq_main": 163,
+      "exit_ne_deep": 16,
+      "exit_ne_aux": 17,
+      "exit_rate": 0.8061
+    },
+    {
+      "tag": "S7",
+      "seed": 37,
+      "n": 196,
+      "aux_acc": 0.551,
+      "main_acc": 0.5255,
+      "exit_acc": 0.5561,
+      "aux_eq_main": 157,
+      "exit_ne_deep": 29,
+      "exit_ne_aux": 10,
+      "exit_rate": 0.9082
+    },
+    {
+      "tag": "S7",
+      "seed": 42,
+      "n": 196,
+      "aux_acc": 0.5102,
+      "main_acc": 0.5867,
+      "exit_acc": 0.5204,
+      "aux_eq_main": 138,
+      "exit_ne_deep": 35,
+      "exit_ne_aux": 23,
+      "exit_rate": 0.8418
+    },
+    {
+      "tag": "S7",
+      "seed": 97,
+      "n": 196,
+      "aux_acc": 0.5612,
+      "main_acc": 0.5561,
+      "exit_acc": 0.5663,
+      "aux_eq_main": 155,
+      "exit_ne_deep": 23,
+      "exit_ne_aux": 18,
+      "exit_rate": 0.8622
+    }
+  ]
+}

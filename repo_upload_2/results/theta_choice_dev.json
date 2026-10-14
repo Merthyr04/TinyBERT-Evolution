@@ -1,0 +1,9 @@
+{
+  "theta": 0.2,
+  "criterion": "mcnemar and absolute-drop",
+  "ptc_dev": 0.99,
+  "exit_rate_dev": 0.93,
+  "speed_index": 140.66,
+  "ptc_dev_deep_control": 0.99,
+  "mcnemar_p_vs_noexit_dev": 1.0
+}

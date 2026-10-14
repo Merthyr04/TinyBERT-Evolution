@@ -1,0 +1,63 @@
+{
+  "note": "Mean encoder depth and analytic compute of the deployed exit, derived from the registered theta = 0.5 exit rate on the 196 test paragraphs (Section 4.6).",
+  "model": {
+    "layers": 4,
+    "exit_layer_index": 2,
+    "hidden": 312,
+    "intermediate": 1200
+  },
+  "corpora": {
+    "LD-100K": {
+      "corpus": "LD-100K",
+      "source": "head_agreement.json",
+      "seq_len": 96,
+      "paragraphs": 416,
+      "seeds": [
+        7,
+        13,
+        37,
+        42,
+        97
+      ],
+      "exit_rate_mean": 0.9827,
+      "exit_rate_min": 0.9745,
+      "exit_rate_max": 0.9949,
+      "mean_depth_mean": 2.0347,
+      "mean_depth_min": 2.0102,
+      "mean_depth_max": 2.051,
+      "layer_compute_fraction": 0.5087,
+      "layer_only_speedup_bound": 1.966,
+      "flops": {
+        "per_token_per_layer": 2396160,
+        "per_paragraph_full_encoder": 920125440,
+        "per_paragraph_deployed": 468040208
+      }
+    },
+    "OD-100K": {
+      "corpus": "OD-100K",
+      "source": "head_agreement_organic.json",
+      "seq_len": 112,
+      "paragraphs": 416,
+      "seeds": [
+        7,
+        13,
+        37,
+        42,
+        97
+      ],
+      "exit_rate_mean": 0.8673,
+      "exit_rate_min": 0.8061,
+      "exit_rate_max": 0.9184,
+      "mean_depth_mean": 2.2653,
+      "mean_depth_min": 2.1632,
+      "mean_depth_max": 2.3878,
+      "layer_compute_fraction": 0.5663,
+      "layer_only_speedup_bound": 1.766,
+      "flops": {
+        "per_token_per_layer": 2416128,
+        "per_paragraph_full_encoder": 1082425344,
+        "per_paragraph_deployed": 613009945
+      }
+    }
+  }
+}

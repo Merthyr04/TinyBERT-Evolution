@@ -1,0 +1,100 @@
+{
+  "system": "S7",
+  "seed": 13,
+  "split": "dev",
+  "dev_paragraphs": 100,
+  "alpha": 0.05,
+  "tol": 0.01,
+  "rule": "maximise the measured speed index among thresholds whose dev accuracy is not significantly worse than the always-deep control (McNemar exact on dev, and absolute drop <= 1 pp)",
+  "rows": [
+    {
+      "theta": 0.2,
+      "ptc_dev": 0.99,
+      "exit_rate_dev": 0.93,
+      "mcnemar_p_vs_noexit_dev": 1.0,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 0,
+      "speed_index": 140.66,
+      "passages_per_s": 2037.98
+    },
+    {
+      "theta": 0.3,
+      "ptc_dev": 0.97,
+      "exit_rate_dev": 0.97,
+      "mcnemar_p_vs_noexit_dev": 0.5,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 2,
+      "speed_index": 154.39,
+      "passages_per_s": 2236.86
+    },
+    {
+      "theta": 0.4,
+      "ptc_dev": 0.97,
+      "exit_rate_dev": 0.99,
+      "mcnemar_p_vs_noexit_dev": 0.5,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 2,
+      "speed_index": 166.87,
+      "passages_per_s": 2417.59
+    },
+    {
+      "theta": 0.5,
+      "ptc_dev": 0.96,
+      "exit_rate_dev": 1.0,
+      "mcnemar_p_vs_noexit_dev": 0.25,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 3,
+      "speed_index": 172.77,
+      "passages_per_s": 2503.11
+    },
+    {
+      "theta": 0.6,
+      "ptc_dev": 0.96,
+      "exit_rate_dev": 1.0,
+      "mcnemar_p_vs_noexit_dev": 0.25,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 3,
+      "speed_index": 171.35,
+      "passages_per_s": 2482.53
+    },
+    {
+      "theta": 0.7,
+      "ptc_dev": 0.96,
+      "exit_rate_dev": 1.0,
+      "mcnemar_p_vs_noexit_dev": 0.25,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 3,
+      "speed_index": 177.96,
+      "passages_per_s": 2578.35
+    },
+    {
+      "theta": 0.8,
+      "ptc_dev": 0.96,
+      "exit_rate_dev": 1.0,
+      "mcnemar_p_vs_noexit_dev": 0.25,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 3,
+      "speed_index": 174.9,
+      "passages_per_s": 2533.99
+    },
+    {
+      "theta": -1.0,
+      "ptc_dev": 0.99,
+      "exit_rate_dev": 0.0,
+      "mcnemar_p_vs_noexit_dev": 1.0,
+      "n_only_theta_correct_dev": 0,
+      "n_only_deep_correct_dev": 0,
+      "speed_index": 93.48,
+      "passages_per_s": 1354.43
+    }
+  ],
+  "choice": {
+    "theta": 0.2,
+    "criterion": "mcnemar and absolute-drop",
+    "ptc_dev": 0.99,
+    "exit_rate_dev": 0.93,
+    "speed_index": 140.66,
+    "ptc_dev_deep_control": 0.99,
+    "mcnemar_p_vs_noexit_dev": 1.0
+  }
+}

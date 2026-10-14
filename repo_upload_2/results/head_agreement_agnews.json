@@ -1,0 +1,66 @@
+{
+  "theta": 0.5,
+  "corpus": "AG News",
+  "rows": [
+    {
+      "tag": "S3",
+      "seed": 7,
+      "n": 196,
+      "aux_acc": 0.8112,
+      "main_acc": 0.8112,
+      "exit_acc": 0.8061,
+      "aux_eq_main": 187,
+      "exit_ne_deep": 7,
+      "exit_ne_aux": 2,
+      "exit_rate": 0.9796
+    },
+    {
+      "tag": "S3",
+      "seed": 13,
+      "n": 196,
+      "aux_acc": 0.7398,
+      "main_acc": 0.7857,
+      "exit_acc": 0.7908,
+      "aux_eq_main": 161,
+      "exit_ne_deep": 10,
+      "exit_ne_aux": 25,
+      "exit_rate": 0.7194
+    },
+    {
+      "tag": "S3",
+      "seed": 37,
+      "n": 196,
+      "aux_acc": 0.8316,
+      "main_acc": 0.8265,
+      "exit_acc": 0.8265,
+      "aux_eq_main": 187,
+      "exit_ne_deep": 5,
+      "exit_ne_aux": 4,
+      "exit_rate": 0.9337
+    },
+    {
+      "tag": "S3",
+      "seed": 42,
+      "n": 196,
+      "aux_acc": 0.7959,
+      "main_acc": 0.8163,
+      "exit_acc": 0.7908,
+      "aux_eq_main": 172,
+      "exit_ne_deep": 17,
+      "exit_ne_aux": 7,
+      "exit_rate": 0.9541
+    },
+    {
+      "tag": "S3",
+      "seed": 97,
+      "n": 196,
+      "aux_acc": 0.7602,
+      "main_acc": 0.801,
+      "exit_acc": 0.7908,
+      "aux_eq_main": 182,
+      "exit_ne_deep": 4,
+      "exit_ne_aux": 10,
+      "exit_rate": 0.8622
+    }
+  ]
+}
